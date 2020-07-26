@@ -20,7 +20,7 @@ public class PrimeDoubling {
 		long largestFactor = 0;
 		long i = 2;
 		//Check every number from 2 to sqrt(n) to find the largest factor
-		while ((i * i) < n) {
+		while ((i * i) <= n) {
 			if (n % i == 0) {
 				prime = false;
 				largestFactor = i;
