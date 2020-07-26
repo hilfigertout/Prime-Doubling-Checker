@@ -44,7 +44,7 @@ public class PrimeDoubling {
 			prime = false;;
 		} 
 		long i = 3;
-		while (((i * i) < root) && (prime)) {
+		while (((i * i) <= root) && (prime)) {
 			if (root % i == 0) {
 				prime = false;
 			}
